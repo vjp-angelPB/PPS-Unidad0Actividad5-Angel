@@ -1,10 +1,10 @@
 # PPS-Unidad0Actividad5-Angel
-# Actividad 5 - Unidad 0 Uso de Git (III)
+## Actividad 5 - Unidad 0 Uso de Git (III)
 
-# Creación del repositorio
+## Creación del repositorio
 ![](Images/img1.png)
 
-# Viendo los remotos
+## Viendo los remotos
 Con `git remote -v` podemos ver los repositorios remotos que tenemos configurados.
 
 1. Mirá tus remotos.
@@ -25,7 +25,7 @@ Con `git remote -v` podemos ver los repositorios remotos que tenemos configurado
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
 ![](Images/img7.png)
 
-# Colaborando
+## Colaborando
 Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado Collaborators. Éstos podrán realizar cambios en él.
 
 
@@ -77,7 +77,7 @@ Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es import
 8. Comprueba con `git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
 
 
-# Erre que erre con Git Logs
+## Erre que erre con Git Logs
 
 1. Muestra los logs
 
