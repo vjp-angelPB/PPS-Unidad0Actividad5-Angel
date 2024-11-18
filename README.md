@@ -23,77 +23,122 @@ Con `git remote -v` podemos ver los repositorios remotos que tenemos configurado
 ![](Images/img6.png)
 
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
-![](Images/img7.png)
+![](Images/img.png)
 
 ## Colaborando
 Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado Collaborators. Éstos podrán realizar cambios en él.
 
 
 1. Comparte tu proyecto con al menos dos compañeros.
+![](Images/img.png)
+![](Images/img.png)
 
-
-2. Para cada uno de los proyectos de tus compañeros:
+3. Para cada uno de los proyectos de tus compañeros:
   * Acepta la invitación de colaboración en su repositorio.
+  ![](Images/img.png)
+  ![](Images/img.png)
 
   * Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
-  
+  ![](Images/img.png)
+  ![](Images/img.png)
+
+
   * Añade una nueva rama con tu nombre(`git branch`).
+  ![](Images/img.png)
+  ![](Images/img.png)
+
  
   * Cámbiate a la rama que has creado(`git checkout`).
-  
+  ![](Images/img.png)
+  ![](Images/img.png)
+
+
   * Comprueba en que rama te encuentras (`git status` te dá la información).
-  
+  ![](Images/img.png)
+  ![](Images/img.png)
+
+
   * Mira los remotos que tienes configurados.
+  ![](Images/img.png)
+  ![](Images/img.png)
+
   
   * Añade en esa rama tus archivos de usuario (foto y profile).
+  ![](Images/img.png)
+  ![](Images/img.png)
+
   
   * Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
+  ![](Images/img.png)
+  ![](Images/img.png)
 
+ 
 
 Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar `git merge`.
 
 
 1. Cambiate a la rama main de los proyectos de tus compañeros
+![](Images/img.png)
+![](Images/img.png)
 
 
 2. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
+![](Images/img.png)
+![](Images/img.png)
 
 
 3. Añade en ella tus archivos de usuario (foto y profile).
+![](Images/img.png)
+![](Images/img.png)
 
 
 4. Sube los cambios a la rama main de los repositorios de tus compañeros.
+![](Images/img.png)
+![](Images/img.png)
 
 
 5. Vuelve a tu repositorio.
+![](Images/img.png)
+![](Images/img.png)
 
 
 6. Comprueba en qué rama te encuentras.
+![](Images/img.png)
+![](Images/img.png)
 
 
 7. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (`git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
+![](Images/img.png)
+![](Images/img.png)
 
 
 8. Comprueba con `git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
+![](Images/img.png)
+![](Images/img.png)
 
 
 ## Erre que erre con Git Logs
 
 1. Muestra los logs
 
+`git log`
+![](Images/img.png)
 
 2. Muestra los logs de los últimos 3 commits
-
+`git log -n 3`
+![](Images/img.png)
 
 3. Muestra los logs utilizando el modificador --pretty
+`git log --pretty=oneline`
+![](Images/img.png)
 
+5. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
+`git log -n 2 -p`
+![](Images/img.png)
 
-4. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
-
-
-5. Muestra los logs de las modificaciones realizadas en el último día
-
-
+7. Muestra los logs de las modificaciones realizadas en el último día
+`git log --since="1 day ago"`
+![](Images/img.png)
 
 
 
