@@ -7,73 +7,67 @@
 ## Viendo los remotos
 Con `git remote -v` podemos ver los repositorios remotos que tenemos configurados.
 
-1. Mirá tus remotos.
+1. Mira tus remotos.
+   
 ![](Images/img2.png)
 
 # Visualizando la página web
 
 1. Visualiza con php el contenido de la página web(`php -S 0:8080`).
-![](Images/img3.png)
-![](Images/img4.png)
+
+(No aparece nada)
 
 2. Introduce dentro de la carpeta img una imagen de tu foto o avatar. El nombre del archivo debe de llevar como nombre tu nombre.
-![](Images/img5.png)
+
+![](Images/img3.png)
 
 3. Dentro de la carpeta profile crea un archivo html con el mismo nombre del archivo de la imagen que copiaste en el punto anterior.
-![](Images/img6.png)
+
+![](Images/img4.png)
 
 4. Lanza el comando php para que se muestre el contenido de la página web y ver cómo se ha modificado.
-![](Images/img.png)
+
+![](Images/img5.png)
 
 ## Colaborando
 Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Repositorio, apartado Collaborators. Éstos podrán realizar cambios en él.
 
 
 1. Comparte tu proyecto con al menos dos compañeros.
-![](Images/img.png)
-![](Images/img.png)
+![](Images/img8.png)
+![](Images/img7.png)
 
 3. Para cada uno de los proyectos de tus compañeros:
   * Acepta la invitación de colaboración en su repositorio.
-  ![](Images/img.png)
-  ![](Images/img.png)
+  ![](Images/img6.png)
+  ![](Images/img10.png)
 
   * Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
-  ![](Images/img.png)
-  ![](Images/img.png)
+  ![](Images/img11.png)
+  ![](Images/img17.png)
 
 
-  * Añade una nueva rama con tu nombre(`git branch`).
-  ![](Images/img.png)
-  ![](Images/img.png)
-
- 
-  * Cámbiate a la rama que has creado(`git checkout`).
-  ![](Images/img.png)
-  ![](Images/img.png)
+  * Añade una nueva rama con tu nombre y cámbiate a la rama que has creado
+  ![](Images/img12.png)
+  ![](Images/img18.png)
 
 
   * Comprueba en que rama te encuentras (`git status` te dá la información).
-  ![](Images/img.png)
-  ![](Images/img.png)
+  ![](Images/img13.png)
+  ![](Images/img19.png)
 
 
-  * Mira los remotos que tienes configurados.
-  ![](Images/img.png)
-  ![](Images/img.png)
-
-  
   * Añade en esa rama tus archivos de usuario (foto y profile).
-  ![](Images/img.png)
-  ![](Images/img.png)
-
+  ![](Images/img14.png)
+  ![](Images/img15.png)
+  ![](Images/img20.png)
+  ![](Images/img25.png)
   
   * Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
-  ![](Images/img.png)
-  ![](Images/img.png)
+  ![](Images/img22.png)
+  ![](Images/img21.png)
 
  
-
 Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar `git merge`.
 
 
