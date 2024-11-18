@@ -83,6 +83,8 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
  
   ![](Images/img21.png)
 
+  ![](Images/img27.png) 
+
  
 Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar `git merge`.
 
