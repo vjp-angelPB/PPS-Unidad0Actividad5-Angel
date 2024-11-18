@@ -34,37 +34,53 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
 
 
 1. Comparte tu proyecto con al menos dos compañeros.
+
 ![](Images/img8.png)
+
 ![](Images/img7.png)
 
 3. Para cada uno de los proyectos de tus compañeros:
   * Acepta la invitación de colaboración en su repositorio.
+ 
   ![](Images/img6.png)
+  
   ![](Images/img10.png)
 
   * Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
+ 
   ![](Images/img11.png)
+  
   ![](Images/img17.png)
 
 
   * Añade una nueva rama con tu nombre y cámbiate a la rama que has creado
+  
   ![](Images/img12.png)
+  
   ![](Images/img18.png)
 
 
   * Comprueba en que rama te encuentras (`git status` te dá la información).
+ 
   ![](Images/img13.png)
+ 
   ![](Images/img19.png)
 
 
   * Añade en esa rama tus archivos de usuario (foto y profile).
+  
   ![](Images/img14.png)
+  
   ![](Images/img15.png)
+  
   ![](Images/img20.png)
+ 
   ![](Images/img25.png)
   
   * Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
+ 
   ![](Images/img22.png)
+ 
   ![](Images/img21.png)
 
  
@@ -72,42 +88,45 @@ Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es import
 
 
 1. Cambiate a la rama main de los proyectos de tus compañeros
+
+![](Images/img28.png)
+
+![](Images/img33.png)
+
+
+2. Añade en ella tus archivos de usuario (foto y profile).
+
+![](Images/img29.png)
+
+![](Images/img34.png)
+
+
+3. Sube los cambios a la rama main de los repositorios de tus compañeros.
+
+![](Images/img30.png)
+
+![](Images/img35.png)
+
+
+4. Vuelve a tu repositorio.
+
+![](Images/img31.png)
+
+5. Comprueba en qué rama te encuentras.
+
+![](Images/img32.png)
+
+6. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (`git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
+
 ![](Images/img.png)
+
 ![](Images/img.png)
 
 
-2. Sincroniza en local la rama main. (puedes comprobar qué compañeros han subido datos lanzando la aplicación web con php).
-![](Images/img.png)
+7. Comprueba con `git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
+
 ![](Images/img.png)
 
-
-3. Añade en ella tus archivos de usuario (foto y profile).
-![](Images/img.png)
-![](Images/img.png)
-
-
-4. Sube los cambios a la rama main de los repositorios de tus compañeros.
-![](Images/img.png)
-![](Images/img.png)
-
-
-5. Vuelve a tu repositorio.
-![](Images/img.png)
-![](Images/img.png)
-
-
-6. Comprueba en qué rama te encuentras.
-![](Images/img.png)
-![](Images/img.png)
-
-
-7. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (`git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
-![](Images/img.png)
-![](Images/img.png)
-
-
-8. Comprueba con `git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
-![](Images/img.png)
 ![](Images/img.png)
 
 
