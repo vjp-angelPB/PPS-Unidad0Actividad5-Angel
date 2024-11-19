@@ -46,6 +46,8 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
   
   ![](Images/img10.png)
 
+![](Images/img36.png)
+
   * Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
  
   ![](Images/img11.png)
