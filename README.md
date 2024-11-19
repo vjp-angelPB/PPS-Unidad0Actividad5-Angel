@@ -46,7 +46,7 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
   
   ![](Images/img10.png)
 
-![](Images/img36.png)
+  ![](Images/img36.png)
 
   * Clona el repositorio (Recuerda que tendrás que crear una carpeta nueva para él).
  
@@ -54,6 +54,7 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
   
   ![](Images/img17.png)
 
+  ![](Images/img37.png)
 
   * Añade una nueva rama con tu nombre y cámbiate a la rama que has creado
   
@@ -61,12 +62,15 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
   
   ![](Images/img18.png)
 
+  ![](Images/img38.png)
 
   * Comprueba en que rama te encuentras (`git status` te dá la información).
  
   ![](Images/img13.png)
  
   ![](Images/img19.png)
+
+  ![](Images/img40.png)
 
 
   * Añade en esa rama tus archivos de usuario (foto y profile).
@@ -78,6 +82,8 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
   ![](Images/img20.png)
  
   ![](Images/img25.png)
+
+  ![](Images/img39.png)
   
   * Sube los cambios de tu rama al repositorio remoto y comprueba que puedes verlos en la web.
  
@@ -87,6 +93,8 @@ Podemos añadir colaboradores en nuestro proyecto desde la Configuración del Re
 
   ![](Images/img27.png) 
 
+  ![](Images/img42.png)
+  
  
 Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es importante que el tiempo entre el push y el pull sea pequeño, ya que si en ese tiempo hay modificaciones por parte de otro colaborador, es posible que haya inconsistencias, en cuyo caso tendremos que utilizar `git merge`.
 
@@ -104,12 +112,16 @@ Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es import
 
 ![](Images/img34.png)
 
+![](Images/img43.png)
+
 
 3. Sube los cambios a la rama main de los repositorios de tus compañeros.
 
 ![](Images/img30.png)
 
 ![](Images/img35.png)
+
+![](Images/img44.png)
 
 
 4. Vuelve a tu repositorio.
@@ -122,88 +134,31 @@ Ahora vamos a hacer modificaciones en la rama main de tus compañeros. Es import
 
 6. Comprueba que tus compañeros hayan creado sus ramas en tu repositorio (`git branch`). Si no es así...!!!! échales una mano, hombre¡¡¡¡¡
 
-![](Images/img.png)
+![](Images/img52.png)
 
-![](Images/img.png)
-
-
-7. Comprueba con `git diff` las diferencias existentes entre las ramas Main y las de tus compañeros
-
-![](Images/img.png)
-
-![](Images/img.png)
-
+![](Images/img53.png)
 
 ## Erre que erre con Git Logs
 
 1. Muestra los logs
 
 `git log`
-![](Images/img.png)
+![](Images/img54.png)
 
 2. Muestra los logs de los últimos 3 commits
 `git log -n 3`
-![](Images/img.png)
+![](Images/img55.png)
 
 3. Muestra los logs utilizando el modificador --pretty
 `git log --pretty=oneline`
-![](Images/img.png)
+![](Images/img56.png)
 
 5. Muestra los logs de los últimos 2 commits donde se vean las diferencias de cada una de las entradas.
 `git log -n 2 -p`
-![](Images/img.png)
+![](Images/img57.png)
 
 7. Muestra los logs de las modificaciones realizadas en el último día
 `git log --since="1 day ago"`
-![](Images/img.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](Images/img58.png)
 
 
